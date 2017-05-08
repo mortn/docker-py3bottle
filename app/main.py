@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from bottle import auth_basic, request, route, run, template, error, redirect, static_file as sf
 import onetimepass as otp
-import secrez as s
+import myoptsecrets as s
 http_user = s.http_user
 http_pass = s.http_pass
 codes = s.codes
