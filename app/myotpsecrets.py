@@ -1,4 +1,5 @@
-ttp_user = 'admin'
+# replace with your actual secret stuff ;-)
+http_user = 'admin'
 http_pass = 'admin'
 codes = {
 	'account1': 'pefjehegNusherewSunaumIcwoafIfyi',
