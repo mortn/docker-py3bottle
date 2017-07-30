@@ -24,6 +24,10 @@ def list_otps():
     markup = ''.join([htmline.format(s,s,c) for (s,c) in otps])
     return markup
 
+@route('/ping')
+def ping():
+    return 'pong'
+
 @route('/2fa/')
 @route('/2fa/<key>')
 @auth_basic(check)
